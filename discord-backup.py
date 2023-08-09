@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(description='Prints the channels and messages')
 parser.add_argument('auth')
 args = parser.parse_args()
 headers = { 'authorization': args.auth }
-serverId = '1138791781106978866'  # AI chat server
+serverId = '1116612173767135342'  # AI chat server
 r = requests.get(f'https://discord.com/api/v9/guilds/{serverId}/channels',
         headers=headers)
 if r.status_code != 200:
