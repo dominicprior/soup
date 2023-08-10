@@ -1,3 +1,4 @@
 # soup
-It was some experiments with Beautiful Soup, but now it uses
-the discord rest api instead.
+A program for backing up a Discord server.  (It's called soup
+because it started out using the Python Beautiful Soup before
+switching to the Discord REST API).
